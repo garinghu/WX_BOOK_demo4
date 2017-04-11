@@ -1,0 +1,60 @@
+.container{
+    display:flex;
+    flex-direction: column;
+}
+.topid{
+    text-align: center;
+    margin-top:100rpx;
+    margin-bottom:100rpx;
+}
+.srcborder{
+    width:150rpx;
+    height:150rpx;
+    background-color:#fff;
+    border-radius:50%;
+    border:1rpx solid #f89903;
+    margin:0 auto;
+}
+.header{
+    width:100rpx;
+    height:100rpx;
+    margin-top:25rpx;
+}
+.login{
+    width:80%;
+    margin:0 auto;
+    background-color: #f89903;
+    text-align: center;
+    height:70rpx;
+    line-height: 70rpx;
+}
+.login text{
+    font-size: 15px;
+    color:#fff;
+}
+.staff{
+    width:80%;
+    margin:0 auto;
+    margin-top:30rpx;
+    background-color: #f89903;
+    text-align: center;
+    height:70rpx;
+    line-height: 70rpx;
+}
+.staff text{
+    font-size: 15px;
+    color:#fff;
+}
+.newuser{
+    width:80%;
+    margin:0 auto;
+    margin-top:30rpx;
+    height:70rpx;
+    line-height: 70rpx;
+    border:1rpx solid #f89903;
+    text-align: center;
+}
+.newuser text{
+    font-size: 15px;
+    color:#f89903;
+}

@@ -1,0 +1,38 @@
+<import src="/pages/logs/logs-item/logs-item.wxml" />
+<view class="detailcontainer">
+<image class="major-src" src="{{postData.paper}}"></image>
+<view class="incontainer">
+        <text class="tittle">{{postData.tittle1}}</text>
+        <view class="writer">
+            <image class="writer-src" src="{{postData.header1}}"></image>
+            <text class="name">{{postData.write1}}</text>
+            <text class="date">{{postData.date1}}</text>
+            </view>
+            <view class="bar"></view>
+        <view class="content">
+            <text>{{postData.text1}}</text>
+                    <image src="{{postData.contentimg1}}"></image>
+            <text>{{postData.text2}}</text>
+                <image src="{{postData.contentimg2}}"></image>
+                <text>{{postData.text3}}</text>
+    </view>
+    <view class="recommend">
+        <view class="leftbar"></view>
+        <text class="recommendtext">相关推荐</text>
+        <view class="rightbar"></view>
+        </view>
+        </view>
+</view>
+
+
+<block wx:for="{{postList}}" wx:for-item="item" wx:for-index="idx">
+        <view catchtap="onPostTap" data-postId="{{item.postId}}">
+             <template is="logsItem" data="{{...item}}"/>
+             <view class="inbar"></view>
+        </view>
+</block>
+
+<view class="footer">
+    
+</view>
+

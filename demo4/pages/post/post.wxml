@@ -1,0 +1,8 @@
+<import src="/pages/post/post-item/post-item.wxml" />
+<view class="containerall">
+<block wx:for="{{books}}" wx:for-item="item" wx:for-index="idx">
+        <view catchtap="onPostTap">
+             <template is="postList" data="{{...item}}"/>
+        </view>
+</block>
+</view>

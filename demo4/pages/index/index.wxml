@@ -1,0 +1,10 @@
+
+ <view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <text class="big">BOOK</text>
+    <text class="userinfo-nickname">这里有书和故事</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto" bindtap="onTap">因为刚好遇见你</text>
+  </view>
+</view>

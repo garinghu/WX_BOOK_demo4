@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/post/post",
+    "pages/mypage/mypage",
+    "pages/armind/armind",
+    "pages/logs/logs-detail/logs-detail",
+    "pages/mypage/all/all",
+    "pages/mypage/security/security"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+   },
+   "tabBar": {
+     "borderStyle":"white", 
+     "list": [{
+       "pagePath": "pages/logs/logs",
+       "text": "推荐",
+       "iconPath": "/images/office.png",
+       "selectedIconPath": "/images/office-select.png"
+     },
+     {
+       "pagePath": "pages/post/post",
+       "text": "全部",
+       "iconPath": "/images/all.png",
+       "selectedIconPath": "/images/all-select.png"
+     },
+     {
+       "pagePath": "pages/mypage/mypage",
+       "text": "我的",
+       "iconPath": "/images/account.png",
+       "selectedIconPath": "/images/account-select.png"
+     },
+     {
+       "pagePath": "pages/armind/armind",
+       "text": "通知",
+       "iconPath": "/images/comments.png",
+       "selectedIconPath": "/images/comments-select.png"
+     }
+     
+     ]
+   }
+ 
+}

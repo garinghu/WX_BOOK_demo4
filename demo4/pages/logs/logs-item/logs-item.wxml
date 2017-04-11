@@ -1,0 +1,22 @@
+<template name="logsItem">
+<view class="list">
+
+    <image class="list-paper"src="{{paper}}"></image>
+
+    <view class="list-texting">
+
+    <view class="list-writer">
+    <image class="list-photo"src="{{header}}"></image>
+    <text class="list-writer-name">{{writer}}</text>
+    <text class="list-date">{{date}}</text>
+    </view> 
+
+    <text class="list-name">{{tittle}}</text>
+
+    <view class="list-content">
+    <text class="list-content-text">{{content}}</text>
+    </view>
+    
+    </view>
+</view>
+</template>

@@ -1,0 +1,11 @@
+<template name="postList">
+<view data="{{temp}}">
+    <view class="list">
+        <image class="booksrc" src="{{booksrc}}"></image>
+        <view class="listtext">
+            <text class="tittle">{{title}}</text>
+            <text class="content">{{content}}</text>
+        </view>
+    </view>
+</view>
+</template>

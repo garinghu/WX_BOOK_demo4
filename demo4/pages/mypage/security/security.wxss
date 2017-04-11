@@ -1,0 +1,62 @@
+.allcontainer{
+    display:flex;
+    flex-direction: column;
+}
+.login{
+    float:right;
+}
+.topid{
+    text-align: center;
+    margin-top:100rpx;
+    margin-bottom:100rpx;
+}
+.srcborder{
+    width:150rpx;
+    height:150rpx;
+    background-color:#fff;
+    border-radius:50%;
+    border:1rpx solid #f89903;
+    margin:0 auto;
+}
+.header{
+    width:100rpx;
+    height:100rpx;
+    margin-top:25rpx;
+}
+topid text{
+    font-size:15px;
+}
+.inputto{
+    width:90%;
+    margin:0 auto;
+    position:relative;
+}
+.input{
+    margin-top:20rpx;
+    border-bottom:1rpx solid #f89903; 
+}
+.viewName{
+    width:90%;
+    margin:0 auto;
+    margin-top:50rpx;
+}
+.loginBtn{
+    background-color:#f89903;
+}
+.loginBtn text{
+    color:#fff;
+}
+.security{
+    width:200rpx;
+    height:68rpx;
+    line-height: 68rpx;
+    text-align: center;
+    position: absolute;
+    right:0;
+    bottom:1rpx;
+    background-color: #ededed;
+    border:1rpx solid #f89903;
+}
+.security text{
+    font-size:15px;
+}

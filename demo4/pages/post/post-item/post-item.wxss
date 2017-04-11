@@ -1,0 +1,33 @@
+.list{
+    width:95%;
+    height:200rpx;
+    margin:0 auto;
+    margin-top:20rpx;
+    border:1rpx solid #aaa;
+}
+.booksrc{
+    width:30%;
+    height:200rpx;
+    float:left;
+}
+.listtext{
+    width:70%;
+    height:200rpx;
+    display:flex;
+    flex-direction: column;
+    float:right;
+}
+.tittle{
+    font-size: 20px;
+}
+.content{
+    font-size:12px;
+    color:#888888;
+    display: -webkit-box;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:4;
+}

@@ -1,0 +1,16 @@
+<template name="viewItem">
+<view class="review">
+    <view class="review-writer">
+    <image class="review-photo"src="{{header}}"></image>
+    <text class="review-writer-name">{{writer}}</text>
+    <text class="review-date">{{date}}</text>
+    </view> 
+    <image class="reviewsrc"src="{{paper}}"></image>
+
+    <view class="review-information">
+        <text class="review-name">{{tittle}}</text>
+        <text class="review-content">{{content}}</text>
+    </view>
+
+</view>
+</template>

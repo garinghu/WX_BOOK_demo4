@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText":"推荐",
+    "navigationBarTextStyle":"white",
+    "navigationBarBackgroundColor": "black",
+    "enablePullDownRefresh":"true"
+
+}

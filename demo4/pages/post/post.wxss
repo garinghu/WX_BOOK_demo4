@@ -1,0 +1,5 @@
+@import "/pages/post/post-item/post-item.wxss";
+.containerall{
+    display:flex;
+    flex-direction: column;
+}

@@ -1,0 +1,16 @@
+<view class="container">
+    <view class="topid">
+    <view class="srcborder">
+        <image class="header"src="/images/booklogo2.png"></image>
+    </view>
+    </view>
+    <view class="login" bindtap="loginTap">
+        <text>用户登陆</text>
+    </view>
+    <view class="staff" bindtap="staffTap">
+        <text>管理员登陆</text>
+    </view>
+    <view class="newuser">
+        <text>新用户注册</text>
+    </view>
+</view>

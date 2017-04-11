@@ -1,0 +1,15 @@
+<template name="recommendItem">
+<view class="list">
+        <image class="officialsrc" src="{{header}}"></image>
+        <view class="content">
+            <view class="information">
+                <view class="littleremind"></view>
+                <text class="indentity">{{information}}</text>
+                <image class="iconsrc" src="/images/more.png"></image>
+                <text class="date">{{date}}</text>
+            </view>
+                <text class="contenttext">{{contenttext}}</text>
+        </view>
+        <view class="bar"></view>
+    </view>
+</template>

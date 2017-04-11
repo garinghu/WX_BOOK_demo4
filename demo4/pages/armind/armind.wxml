@@ -1,0 +1,39 @@
+<!--<import src="/pages/armind/recommend-item/recommend-item.wxml"/>-->
+
+<!--导航条--> 
+<view class="navbar"> 
+ <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}
+ </text>  
+</view> 
+  
+
+<view class="recommend" hidden="{{currentTab!==0}}"> 
+    <block wx:for="{{recommendList}}" wx:for-item="item" wx:for-index="idx">
+
+
+        <view catchtap="onTap" data-postid="{{item.postId}}" data-lala="{{item.lala}}">
+             <view class="list">
+        <image class="officialsrc" src="{{item.header}}"></image>
+        <view class="content">
+            <view class="information">
+                <view class="littleremind" hidden="{{(item.lala-item.postId)!==0}}"></view>
+                <text class="indentity">{{item.information}}</text>
+                <image class="iconsrc" src="/images/more.png"></image>
+                <text class="date">{{item.date}}</text>
+            </view>
+                <text class="contenttext">{{item.contenttext}}</text>
+        </view>
+        <view class="bar"></view>
+    </view>
+        </view>
+
+
+</block>
+</view> 
+  
+<!--搜索--> 
+<view hidden="{{currentTab!==1}}"> 
+ tab_02 
+</view> 
+  
+
